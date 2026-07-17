@@ -1,12 +1,5 @@
 
-}import { Application } from "./app.js";
 
-const application = new Application();
-
-application.bootstrap().catch((error) => {
-    console.error("[BOOTSTRAP_ERROR]", error);
-    process.exit(1);
-});texport class Environment {
 
     public static readonly PORT =
         Number(process.env.PORT ?? 3000);
